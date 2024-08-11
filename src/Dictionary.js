@@ -13,6 +13,7 @@ export default function Dictionary() {
         event.preventDefault();
         alert(`Searching for ${keyword}`);
 
+        // documentation: https://www.shecodes.io/learn/apis/dictionary //
         let apiUrl = `https://api.shecodes.io/dictionary/v1/define?keyword=${keyword}`;
         axios.get(apiUrl).then(handleResponse);
     }
