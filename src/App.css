@@ -1,5 +1,8 @@
 .App {
-  background: lavender;
+  background: rgb(241, 224, 255);
+  padding: 60px 0 100px;
+  margin: 0 auto;
+  max-width: cover;
 }
 .App-header {
   margin: 30px;
